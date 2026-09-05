@@ -1,0 +1,17 @@
+model:
+  name: "lobotomy shakespeare"
+  model_class: "GPT"
+  layers: 2
+  context_length: 200
+  embedding_dim: 100
+  vocab_size: 10000
+  dropout: 0.1
+  attention_heads: 2
+  qkv_bias: False
+optimizer:    
+  learning_rate: 0.01
+  batch_size: 2000
+  epochs: 10
+  optimizer: "ADAM"
+
+
